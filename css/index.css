@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+:root {
+   --white: #ffffff;
+   --bg: #1b1e2b;
+   --blue: #2797dd;
+   --grey: #6e767d;
+   --pink: #f72381;
+   --body1-regular: 400 16px/1.8rem Nunito Sans, sans-serif;
+   --body1-bold: 700 1rem/1.75rem Nunito Sans, sans-serif;
+   --body2-bold: 700 0.75rem/1.5rem Nunito Sans, sans-serif;
+   --body2-regular: 400 0.75rem/1.375rem Nunito Sans, sans-serif;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   color: var(--white);
+   font: var(--body1-regular);
+   background-color: var(--bg);
+}
+a {
+   text-decoration: none;
+   color: var(--grey);
+}
+span {
+   color: var(--grey);
+}
+.container {
+   max-width: 90%;
+   margin: 0 auto;
+   /* display: flex; */
+   /* flex-direction: column; */
+}
+.avatar img {
+   width: 54px;
+   height: 54px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+.contenido {
+   margin-top: 16px;
+}
+.contenido p {
+   font-weight: 300;
+   line-height: 28px;
+}
+.card-img-anchor {
+   width: 95%;
+   height: 120px;
+   display: flex;
+}
+.card-img-anchor picture {
+   width: 36%;
+}
+.card-img-anchor .enlaces {
+   width: 64%;
+}
+.card-img-anchor img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
